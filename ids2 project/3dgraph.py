@@ -16,9 +16,9 @@ x = z * np.sin(24 * z)
 y = z * np.cos(24 * z)
 
 # defining the x,y,z axis
-ax.set_xlabel('X-axis label')
-ax.set_ylabel('Y-axis label')
-ax.set_zlabel('Z-axis label')
+ax.set_xlabel('X-axis qty')
+ax.set_ylabel('Y-axis revenue')
+ax.set_zlabel('Z-axis marketprice')
 
 #plot 
 ax.plot3D(x, y, z, 'green')
